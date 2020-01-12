@@ -7,3 +7,5 @@ My big addition was to make the radio buttons very friendly. I am super proud of
 There is also some nice soft transitions to make for a great user experience.
 At the end the user gets a nice message indicating that they have been registered into the system.
 Big thanks go to the instructor of the course of udemy.
+This is a link to the course. If you need help making a project like this then take the course:
+https://www.udemy.com/course/create-sign-up-system-using-jquery-ajax-and-php/
