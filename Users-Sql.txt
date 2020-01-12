@@ -1,0 +1,17 @@
+/**
+ * Users table schema
+ */
+
+CREATE TABLE `signup`.`users` (
+`id` INT NOT NULL AUTO_INCREMENT ,
+`date` TEXT NOT NULL ,
+`fname` VARCHAR(30) NOT NULL ,
+`lname` VARCHAR(30) NOT NULL ,
+`email` VARCHAR(30) NOT NULL ,
+`password` VARCHAR(30) NOT NULL ,
+`gender` VARCHAR(10) NOT NULL ,
+`website` TEXT NOT NULL ,
+PRIMARY KEY (`id`),
+ UNIQUE KEY `email` (`email`)
+)
+ENGINE = InnoDB  DEFAULT CHARSET=utf8;;
